@@ -17,46 +17,20 @@
             
             <div class="intro">
                 <h1>Wistia Video Embeds</h1>
-                <p>This page demonstrates two different ways to embed Wistia Videos: manually using embed code, and using a React package for easier integration.</p>
+                <p>This page demonstrates how to embed Wistia Videos using manual embed code.</p>
             </div>
             
             <div class="embed-section">
-                <h2 class="section-title">Manual Video Embed</h2>
+                <h2 class="section-title">Video Embed</h2>
                 <p class="section-description">This section demonstrates embedding a Wistia video using manual embed code. Replace this placeholder with your actual video embed script or iframe.</p>
                 
                 <div class="embed-placeholder">
                     <!-- Wistia Video Embed - Manual Method -->
-                    <!-- Replace lndd4k00cc with your actual Wistia video ID -->
-                    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-                    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                            <div class="wistia_embed wistia_async_lndd4k00cc videoFoam=true" style="height:100%;position:relative;width:100%">
-                                <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
-                                    <img src="https://fast.wistia.com/embed/medias/lndd4k00cc/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="note">Note: Replace <code>lndd4k00cc</code> with your actual Wistia video ID in both the class name and image src.</p>
-                </div>
-            </div>
-            
-            <div class="embed-section">
-                <h2 class="section-title">React Package Video Embed</h2>
-                <p class="section-description">This section demonstrates embedding a Wistia video using a React package (e.g., @wistia/react-embeds or similar). Replace this placeholder with your React component implementation.</p>
-                
-                <div class="embed-placeholder">
-                    <p>React Package Video Embed Placeholder</p>
-                    <p class="note">Note: This is a vanilla HTML example. For React package implementation, you would use a component like:</p>
-                    <pre><code>import { Video } from '@wistia/react-embeds';
-
-&lt;Video hashedId="YOUR_VIDEO_ID" /&gt;</code></pre>
+                    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/6eaz96oo4m.js" async type="module"></script><style>wistia-player[media-id='6eaz96oo4m']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6eaz96oo4m/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }</style> <wistia-player media-id="6eaz96oo4m" aspect="1.7777777777777777"></wistia-player>
                 </div>
             </div>
         </main>
     </div>
-    
-    <script src="script.js"></script>
 </body>
 </html>
 

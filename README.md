@@ -56,3 +56,4 @@ This example uses modern HTML5, CSS3, and JavaScript features. It should work in
 - Replace all placeholder IDs with your actual Wistia media IDs
 - The React package sections are informational only - this is a vanilla HTML example
 
+

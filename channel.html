@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wistia Channel Embeds</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Wistia Channel Embed Styles -->
-    <link rel="stylesheet" href="https://fast.wistia.com/embed/channel/project/verai4y6qm/font.css">
 </head>
 <body>
     <div class="page">
@@ -19,38 +17,21 @@
             
             <div class="intro">
                 <h1>Wistia Channel Embeds</h1>
-                <p>This page demonstrates two different ways to embed Wistia Channels: manually using embed code, and using a React package for easier integration. Channels allow you to showcase multiple videos in a curated collection.</p>
+                <p>This page demonstrates how to embed Wistia Channels using manual embed code. Channels allow you to showcase multiple videos in a curated collection.</p>
             </div>
             
             <div class="embed-section">
-                <h2 class="section-title">Manual Channel Embed</h2>
+                <h2 class="section-title">Channel Embed</h2>
                 <p class="section-description">This section demonstrates embedding a Wistia channel using manual embed code. Replace this placeholder with your actual channel embed script or iframe.</p>
                 
                 <div class="embed-placeholder">
                     <!-- Wistia Channel Embed - Manual Method -->
-                    <!-- Replace verai4y6qm with your actual channel ID -->
-                    <div class="wistia_channel wistia_async_verai4y6qm mode=inline" style="min-height:100vh;position:relative;width:100%" id="wistia-gallery-verai4y6qm-1"></div>
-                </div>
-            </div>
-            
-            <div class="embed-section">
-                <h2 class="section-title">React Package Channel Embed</h2>
-                <p class="section-description">This section demonstrates embedding a Wistia channel using a React package (e.g., @wistia/react-embeds or similar). Replace this placeholder with your React component implementation.</p>
-                
-                <div class="embed-placeholder">
-                    <p>React Package Channel Embed Placeholder</p>
-                    <p class="note">Note: This is a vanilla HTML example. For React package implementation, you would use a component like:</p>
-                    <pre><code>import { Channel } from '@wistia/react-embeds';
-
-&lt;Channel hashedId="verai4y6qm" /&gt;</code></pre>
+                    <script src="https://fast.wistia.com/assets/external/channel.js" async></script><link rel="stylesheet" href="https://fast.wistia.com/embed/channel/project/verai4y6qm/font.css" /><div class="wistia_channel wistia_async_verai4y6qm mode=inline" style="min-height:100vh;position:relative;width:100%;"></div>
                 </div>
             </div>
         </main>
     </div>
-    
-    <!-- Wistia Channel Embed Script -->
-    <script src="https://fast.wistia.com/assets/external/channel.js" async></script>
-    <script src="script.js"></script>
 </body>
 </html>
+
 
